@@ -338,11 +338,17 @@ h6,
 
 .case-overlay small {
   display: inline-block;
-  padding: 3px 15px;
+  padding: 8px 20px;
   color: #ffffff;
-  background: rgba(20, 24, 62, 0.7);
-  border-radius: 25px;
+  background: rgba(56, 72, 219, 0.7);
+  border-radius: 5px;
   margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.case-overlay ul {
+  font-size: 20px;
+  /* list-style: none; */
 }
 
 .case-overlay span.btn:hover {
